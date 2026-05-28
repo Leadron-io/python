@@ -65,8 +65,8 @@ remaining = client.get_rate_limit_status()
 
 ## Webhook events
 
-See [instructions.md](../instructions.md) for the full list of webhook event types. Verify payloads with `client.auth.verify_webhook_signature(payload, signature, secret)` before processing.
+See [Leadron Events](https://docs.leadron.io/events) for the full list of webhook event types. Verify payloads with `client.auth.verify_webhook_signature(payload, signature, secret)` before processing.
 
 ## API docs
 
-Full API reference: [OpenAPI spec](../../documentation/api-docs/openapi.yaml) and [SDK-to-HTTP mapping](../api-mapping.md).
+Full API reference: [Leadron Docs](https://docs.leadron.io).
